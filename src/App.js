@@ -3,17 +3,26 @@ import {BrowserRouter, BrowserRouter as Router,Route,Routes} from 'react-router-
 import React, { Component } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './pages/Hero'
-
-export default class App extends Component {
-  render() {
-    return (
-    //  <BrowserRouter>
-     <>
+// import NewsList from './pages/CountryNews'
+import Categorynews from './pages/Categorynews'
+import CountryNews from './pages/CountryNews'
+const App = () => {
+  const apikey = process.env.APP_KEY;
+  console.log(apikey)
+  return (
+    <BrowserRouter>
      
-     <Navbar/>
-     <Hero/>
-     </>
-    //  {/* </BrowserRouter> */}
-    )
-  }
+          <Navbar/>
+       <Routes>
+         <Route path="/" element={<Hero/>}/>
+         <Route path='/country/:id' element={<CountryNews/>} apikey={apikey}/>
+         <Route path='/category/:name' element={<Categorynews/>}/>
+         </Routes>
+         
+        </BrowserRouter>
+  )
 }
+
+export default App
+
+
