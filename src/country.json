@@ -1,0 +1,43 @@
+[
+    {
+        "country": "India",
+        "img": "https://images.unsplash.com/photo-1597058712635-3182d1eacc1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+        "short": "in"
+    },
+    {
+        "country": "Australia",
+        "img": "https://media.istockphoto.com/photos/folded-australian-flag-sitting-in-hard-surface-picture-id157295285?b=1&k=20&m=157295285&s=170667a&w=0&h=Pjana0J4aOqkqj9NNSANZiC3tRNB2H24whSB6-uCIDk=",
+        "short": "au"
+    },
+    {
+        "country": "China",
+        "img": "https://media.istockphoto.com/photos/china-flag-symbol-of-chinese-power-picture-id961226308?b=1&k=20&m=961226308&s=170667a&w=0&h=8SK2mZSVD9jU6gnY000eKT2WA7000G7ItCXAw4ZSh_g=",
+        "short": "cn"
+    },
+    {
+        "country": "Germany",
+        "img": "https://media.istockphoto.com/photos/german-flag-germany-grunge-paper-concrete-marble-abstract-texture-picture-id1322519578?b=1&k=20&m=1322519578&s=170667a&w=0&h=bvw6J0niKzFlXOUxCunYQzSu7BRktj6fwPGrFzN_UqM=",
+        "short": "de"
+    },
+    {
+        "country": "United States",
+        "img": "https://images.unsplash.com/photo-1625763689436-ff2665557e09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YW1lcmljYSUyMGZsYWd8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "short": "us"
+    },
+    {
+        "country": "United Kingdom",
+        "img": "https://media.istockphoto.com/photos/background-uk-flag-united-kingdom-flag-3d-rendering-picture-id1192552917?b=1&k=20&m=1192552917&s=170667a&w=0&h=n9zc0KDYyqOUoLl1MsZi0Ffiavx5xmjzAPPgT2xjFiY=",
+        "short": "gb"
+    },
+    {
+        "country": "Italy",
+        "img": "https://media.istockphoto.com/photos/closeup-of-ruffled-italy-flag-picture-id1031799170?b=1&k=20&m=1031799170&s=170667a&w=0&h=KVny8Bk3rqcei8nlVTrDZKR1DMkiz2vmiYpf1LOda2Y=",
+        "short": "it"
+    },
+    {
+        "country": "Japan",
+        "img": "https://media.istockphoto.com/photos/japanese-flag-picture-id177416440?b=1&k=20&m=177416440&s=170667a&w=0&h=LlMbhsAVOyLlFA9bSn_DBRTZgA9sRGJE_VAa-EHzFo8=",
+        "short": "jp"
+    }
+  
+]

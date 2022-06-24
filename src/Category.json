@@ -1,0 +1,34 @@
+[
+    {
+        "img":"https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/chemical-science/chemical-science-header-image.jpg?version=8a759ae3",
+        "name":"science"
+
+    },
+    {
+        "img":"https://www.inspirisys.com/images/practices-overview/header-practice-overview.jpg",
+        "name":"technology"
+
+    },
+    {
+        "img":"https://th.bing.com/th/id/OIP.KpUemc_AcHh4YlM-h3C1xwHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "name":"entertainment"
+
+    },
+    {
+        "img":"https://www.thestatesman.com/wp-content/uploads/2020/04/mukesh-ambani_ED.jpg",
+        "name":"business"
+
+    },
+    {
+        "img":"https://th.bing.com/th/id/OIP.r_OS5rivDZEmkfmZJK7IqgHaE9?w=257&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "name":"sports"
+
+    },
+    {
+        "img":"https://th.bing.com/th/id/OIP.OsfDxzDAesDVCdbVQ78sVgHaLH?pid=ImgDet&rs=1",
+        "name":"health"
+
+    }
+   
+   
+]
