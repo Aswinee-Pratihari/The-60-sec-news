@@ -2,13 +2,15 @@ import React from 'react'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom'
+
 const Categorynews = (props) => {
 
     const {name} = useParams();
     const [details,Setdetails]=useState([]);
 
     const showresult = async()=>{
-        const url= `https://newsapi.org/v2/top-headlines?category=${name}&apiKey=be140003ebdc40c4ae3dca5b50ae067a`;
+        // const url= `https://newsapi.org/v2/top-headlines?category=${name}&apiKey=${process.env.REACT_APP_API_KEY}`;
+        const url=`https://newsapi.org/v2/top-headlines?category=${name}&apiKey=be140003ebdc40c4ae3dca5b50ae067a`
         let data=await fetch(url);
         let parsedata=await data.json();
         Setdetails(parsedata.articles);

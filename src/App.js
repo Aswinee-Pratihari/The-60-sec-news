@@ -6,6 +6,7 @@ import Hero from './pages/Hero'
 // import NewsList from './pages/CountryNews'
 import Categorynews from './pages/Categorynews'
 import CountryNews from './pages/CountryNews'
+import SearchResults from './pages/SearchResults'
 const App = () => {
   const apikey = process.env.APP_KEY;
   console.log(apikey)
@@ -17,6 +18,7 @@ const App = () => {
          <Route path="/" element={<Hero/>}/>
          <Route path='/country/:id' element={<CountryNews/>} apikey={apikey}/>
          <Route path='/category/:name' element={<Categorynews/>}/>
+         <Route path='/news/:id' element={<SearchResults/>}/>
          </Routes>
          
         </BrowserRouter>

@@ -8,6 +8,7 @@ const Hero = () => {
  <TopHeadlines/>
  <CountryList/>
  <CategoryList/>
+
  </>
   )
 }
